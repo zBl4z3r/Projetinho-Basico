@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+    @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');    
+
+    :root {
+        --fonte1: 'Passion One', cursive;
+        --fonte2: 'Sriracha', cursive;
+        --fonte3: 'Verdana', 'Arial', 'Helvetica', 'sans-serif';
+        --cor1: black;
+        --cor2: white;
+
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        min-height: 100vh;
+    }
+
+    header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 0px 0px 20px 0px;
+        text-indent: 10px;
+    }
+
+    header > h1 {
+        
+        font-family: var(--fonte1);
+        font-size: 10vw;
+        font-variant: small-caps;
+        padding-top: 50px;
+        margin: 0px
+    }
+
+    h1:hover {
+        text-decoration: underline;
+    }
+
+    header > p {
+        padding-bottom: 15px;
+        margin-top: 0px;
+        font-family: var(--fonte3);
+        font-size: -8vw;
+    }
+
+    strong {
+        text-decoration: none;
+        color: white;
+    }
+
+    strong:hover {
+        text-decoration: underline;
+    }
+
+    section {
+        padding-left: 25px;
+    }
+
+    section > p {
+        padding-top: 36px;
+        color: var(--cor1);
+        font-family: var(--fonte2);
+        font-size: 67px;
+        font-size: 3vw;
+    }
+
+    .Imagem > p {
+        background-color: rgba(0, 0, 0, 0.70);
+        color: white;
+        display: inline-block;
+        padding: 5px;
+        }
+
+    #Imagem1 {
+        background-image: url('../imagens/background001.jpg');
+        background-size: cover;
+        background-position: right center;
+        background-attachment: fixed;
+    }
+
+    #Imagem2 {
+        background-image: url('../imagens/background002.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #Ultimo {
+        padding-bottom: 100px;
+    }
+
+    footer {
+        color: white;
+        font-family: var(--fonte3);
+        background-color: black;
+        text-align: center;
+        padding: 1px 0px 1px 0px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-weight: 900;
+    }
